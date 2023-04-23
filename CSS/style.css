@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(../fonts/Outlier-Rail.woff);
+    font-family: 'Outlier-Rail';
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(240, 248, 255);
+}
+
+header {
+    background-color: rgb(55, 84, 238);
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul {
+    width: 600px;
+    height: 35px;
+    text-align: end;
+}
+
+header nav ul li {
+    font-family: 'Outlier-Rail';
+    font-size: 16px;
+    list-style-type: none;
+    display: inline-flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+header a {
+    position: right;
+    color: white;
+    padding: 14px;
+    text-decoration: none
+}
+
+.logopeq {
+    width: 85%;
+    align-items: center;
+
+
+}
+
+.logopeq img {
+    width: 45px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 30%;
+}
+
+table {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+table img {
+    border-radius: 2%;
+    width: 140;
+    height: 122px;
+    text-align: right;
+    align-items: center;
+}
+
+tr {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+td h3 p {
+    margin-left: 15px;
+    margin-right: 200px;
+    font-size: 22px;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(55, 84, 238);
+    display: flex;
+    justify-content: end
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding-left: 0
+}
+
+footer ul li {
+    font-family: 'Outlier-Rail';
+    font-size: 16px;
+}
+
+.footerSection {
+    width: 100%;
+    right: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#map {
+    float: right;
+    display: flex;
+    justify-content: right;
+    width: 18%;
+    height: auto;
+}
+
+footer {
+    position: relative;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+}
